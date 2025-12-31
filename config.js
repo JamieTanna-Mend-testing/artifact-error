@@ -7,6 +7,6 @@ module.exports = {
 	prHourlyLimit: 1000,
 
 	allowedCommands: [
-		'*',
+		'.*',
 	],
 }
