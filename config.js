@@ -1,6 +1,5 @@
 module.exports = {
 	onboarding: false,
-	requireConfig: 'ignored',
 
 	branchConcurrentLimit: 100,
 	prConcurrentLimit: 100,
