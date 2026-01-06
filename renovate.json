@@ -2,7 +2,8 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"postUpgradeTasks": {
 		"commands": [
-			"cd /tmp && ls >> /tmp/$(date -I)"
+			"cd /tmp && ls >> /tmp/$(date -I)",
+			"export PATH=$PATH:/tmp && pre-commit run --all-files || true"
 		]
 	}
 }
